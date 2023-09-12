@@ -1,0 +1,58 @@
+.form_style {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form_style div {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.form_style form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+}
+
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_control_individual {
+  position: relative;
+  width: 100%;
+}
+
+.form_control_individual label {
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.form_control_individual input {
+  height: 40px;
+  padding: 0 8px;
+  width: 100%;
+}
+
+.form_control_individual textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.write_values {
+  display: flex;
+
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,16 @@
+.heading {
+  margin-top: 50px;
+  padding: 0 50px;
+}
+
+.heading h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.heading p {
+  font-size: 16px;
+  font-weight: 500px;
+  color: gray;
+  max-width: 875px;
+}
